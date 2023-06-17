@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple RPS redo</title>
+</head>
+<body>
+    <div id="container">
+        <button class="btnChoice" id="rock">Rock</button>
+        <button class="btnChoice" id="paper">Paper</button>
+        <button class="btnChoice" id="scissors">Scissors</button>
+
+        <h1 id="playerChoice">You chose: </h1>
+        <h1 id="compChoice">Computer chose: </h1>
+        <h1 id="whoWon"></h1>
+        <h1 id="finalResult"></h1>
+    </div>
+    <div id="scoreContainer">
+        <label for="playerResult" class="scoreLabel">Player Result: </label>
+        <input type="text" name="playerResult" id="playerResult" class="scoreBox">
+        <label for="compResult" class="scoreLabel">Computer Result: </label>
+        <input type="text" name="compResult" id="compResult" class="scoreBox">
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
